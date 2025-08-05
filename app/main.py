@@ -53,4 +53,4 @@ class Dictionary:
             if node.key == key:
                 return node.value
 
-        raise KeyError(f'Key {key} not found.')
+        raise KeyError(f"Key {key} not found.")
